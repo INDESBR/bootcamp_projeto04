@@ -197,7 +197,7 @@ footer {
     background-color: var(--cor-bg);
     border-radius: 100%;
     transform: translateY(30px);
-    background-image: url(/Aula04/Imagens/heart.png);
+    background-image: url(/heart.png);
     background-size: 40%;
     background-repeat:no-repeat;
     background-position: center;
@@ -205,7 +205,7 @@ footer {
 
 .botao:hover {
     background-color: seagreen;
-    background-image: url(/Aula04/Imagens/like.png);
+    background-image: url(/like.png);
 }
 
 
