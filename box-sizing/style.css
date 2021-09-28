@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+head{
+    display: none;
+}
+body{
+    background-color:white;
+    display: grid;
+    justify-content: center;
+    height: 75vh;
+}
+.div-container{
+    width: 730px;
+    height: 100%;
+    display: flex;
+}
+.grid-content{
+    background-color:#6d6875;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "F C"
+    "R C"
+    "R C";
+}
+.foto{
+    grid-area: F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 160px;
+    height: auto;
+    border-radius: 100%;
+    border: solid 4px white;
+}
+.resumo{
+    grid-area: R;
+}
+.flex-resumo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-resumo{
+    width: 80%;
+    margin: -30px 0px 0px 0px;
+}
+.resumo h1, h2, p{
+    color: white;
+}
+h1{
+    font-size: 24px;
+}
+p{
+    font-size: 10px;
+    padding: 2px 0px;
+}
+h2{
+    font-size: 14px;
+}
+.competencias{
+    background-color: rgb(231,231,231);
+    grid-area: C;
+}
+.flex-comp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-comp{
+    width: 80%;
+}
+h2.h2-comp{
+    background-color:#6d6875;
+    color: white;
+    padding: 5px 0px 5px 20px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+ul{
+    padding: 10px;
+    font-size: 10px;
+}
+h3 {
+    font-size: 12px;
+}
+.main-comp p {
+    font-style: italic;
+    color: black;
